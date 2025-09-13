@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "65ce7340-0e15-4e6b-9655-4e985ccfc327",
+		"name": "z-selfporject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28965200"
+	},
+	"item": [
+		{
+			"name": "consumer",
+			"item": [
+				{
+					"name": "getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8001/api/v1/consumers",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"v1",
+								"consumers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
